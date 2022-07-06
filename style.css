@@ -1,0 +1,226 @@
+/* Style Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Section 1 styling */
+
+h1, h2, h3, p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section1 {
+    background-color: #1F2937;
+    padding-bottom: 20px;
+}
+
+.awesome > h3 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.section1 p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section1 a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.headerLogo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#signUpBtn {
+    background-color: #3882F6;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+header {
+    display: flex;
+    padding: 10px;
+    margin: 0 200px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    padding: 2px 7px;
+}
+
+.content1 {
+    display: flex;
+    margin: 50px 200px;
+    padding: 10px;
+}
+
+.awesome {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.content1 img {
+    max-width: 400px;
+    margin-left: auto;
+}
+
+/* Section 2 styling */
+
+.section2 {
+    margin: 25px 200px;
+    padding-bottom: 50px;
+}
+
+.section2 h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#images-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#images-flex img {
+    border: 2px #1F2937 solid;
+    border-radius: 10px;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    flex: 1 1 auto;
+    column-gap: 100px;
+    padding: 5px;
+    max-width: 200px;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Section 3 styling */
+
+.section3 {
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.section3 q {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.section3 h3 {
+    font-weight: bold;
+    text-align: end;
+}
+
+.quote {
+    max-width: 600px;
+}
+
+
+/* Section 4 styling */
+
+.section4 {
+    padding: 100px 200px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    color: white;
+    padding:  50px;
+    border-radius: 10px;
+}
+
+.container h3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.container button {
+    background-color: #3882F6;
+    border: 2px #E5E7EB solid;
+    border-radius: 5px;
+    color: white;
+    padding: 0 25px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 30px 200px;
+    text-align: center;
+}
+
+
+
+
